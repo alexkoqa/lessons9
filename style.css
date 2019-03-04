@@ -1,0 +1,108 @@
+
+.wrap{
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 30px;
+	margin-bottom: 10px;
+}
+.nav-wrap > ul{
+	margin: 0;
+	padding: 0;
+}
+.ul-wrap > li{
+	width: 200px;
+	padding: 5px 0px 5px 5px;
+	border: 1px solid #000;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.ul-wrap > li:last-child{
+	border-bottom: 1px solid #000;
+}
+.ul-wrap > li:hover{
+	background-color: #66F047;
+}
+.ul-wrap > li:hover +  li.li-wrap{
+	background-color: #F02618;
+}
+/*---------------------------------------------------*/
+.ul-wrap-2 > li{
+	width: 200px;
+	padding: 5px 0px 5px 5px;
+	border: 1px solid #000;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.ul-wrap-2 > li:last-child{
+	border-bottom: 1px solid #000;
+}
+.ul-wrap-2 > li.li-wrap-2:hover{
+	background-color: #66F047;
+}
+.ul-wrap-2 > li.li-wrap-2:hover ~ li{
+	background-color: #F02618;
+}
+/*-----------------------------------------------------*/
+.ul-wrap-3 > li{
+	width: 200px;
+	padding: 5px 0px 5px 5px;
+	border: 1px solid #000;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.ul-wrap-3 > li:last-child{
+	border-bottom: 1px solid #000;
+}
+.ul-wrap-3 > li.li-wrap-3:hover{
+	background-color: #66F047;
+}
+.ul-wrap-3 > li.li-wrap-3:hover ~ li.li-wrap-3:nth-child(2n+1){
+	background-color: #F02618;
+}
+/*----------------------------------------------------*/
+.ul-wrap-4 > li{
+	width: 200px;
+	padding: 5px 0px 5px 5px;
+	border: 1px solid #000;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.ul-wrap-4 > li:last-child{
+	border-bottom: 1px solid #000;
+}
+.ul-wrap-4 > li.li-wrap-4:hover{
+	background-color: #66F047;
+}
+.ul-wrap-4 > li.li-wrap-4:hover ~ li.li-wrap-4:nth-child(-n+9){
+	background-color: #F02618;
+}
+/*----------------------------------------------------*/
+.ul-wrap-5 > li{
+	width: 200px;
+	padding: 5px 0px 5px 5px;
+	border: 1px solid #000;
+	list-style: none;
+	box-sizing: border-box;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.ul-wrap-5 > li:last-child{
+	border-bottom: 1px solid #000;
+}
+.ul-wrap-5 > li.li-wrap-5:hover{
+	background-color: #66F047;
+}
+.ul-wrap-5 > li.li-wrap-5:hover + li+li:nth-child(n){
+	background-color: #F02618;
+}
+/*------------------------------------------------------*/
+p{}
