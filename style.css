@@ -101,7 +101,7 @@
 .ul-wrap-5 > li.li-wrap-5:hover{
 	background-color: #66F047;
 }
-.ul-wrap-5 > li.li-wrap-5:hover + li+li:nth-child(n){
+.ul-wrap-5 > li.li-wrap-5:hover + li + li{
 	background-color: #F02618;
 }
 /*------------------------------------------------------*/
